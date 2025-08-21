@@ -1,0 +1,136 @@
+
+html,body{
+    min-height: 100vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://images.adsttc.com/media/images/5a60/cbdd/f197/cc8f/5200/0be4/large_jpg/33266737154_4ab0387ccb_k.jpg?1516293076);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 
+}
+
+.contenerdor_todo{
+    width: 350px;
+    height: 590px;
+    background-color: #ffffff9c;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #0000.2;
+    text-align: center;
+}
+.contenerdor_todo{
+    background-color: #fff0.15;
+    backdrop-filter: blur(10px);
+    border-radius:16px;
+    padding: 30px;
+
+}
+
+
+.imagen_del_login{
+    height: 100px;
+    display: inline-block;
+    background:color white;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+.titulo{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font: weight 900;
+    font-family: sans-serif;
+    text-transform:uppercase;
+    font-size: 18px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 60px;
+    
+}
+
+.descripcion_input{
+    font-size: 12px;
+    font-weight: 100;
+    align-self: flex-start;
+    margin-bottom: -16px;
+    
+}
+
+
+.input{
+    background-color: rgba(250, 247, 247, 0.15);
+    width: 300px;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    border:none;
+    border-bottom: 1px solid rgb(39, 39, 93);
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px #0000.115;
+    transition: background-color 0.40s ease,border-bottom-color 0.40s ease;
+
+}
+
+.input:valid{
+    background-color: rgba(8, 52, 119, 0.115);
+    border-bottom: 3px solid #002;
+}
+
+
+.input:focus{
+    outline: none;
+}
+
+.boton_incio_sesion{
+    background-color: rgb(8, 52, 119);
+    font-family: sans-serif;
+    color: #fff;
+    width: 300px;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    border:none;
+    margin-top:15px;
+    box-shadow: 0px 0px 2px #000;
+}
+
+
+.separador_elementos{
+    font-family: sans-serif
+
+}
+
+
+.botton_registro{
+    background-color: #666;
+    font-family: sans-serif;
+    color: #fff;
+    width: 300px;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    border:none;
+    margin-top:8px;
+    box-shadow: 0px 0px 2px #000;
+}
+
